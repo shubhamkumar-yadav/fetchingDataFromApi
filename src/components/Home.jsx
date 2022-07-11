@@ -67,6 +67,7 @@ const Home = () => {
                             <Card sx={{ maxWidth: 345 }} className={classes.cardContainer}>
                                 <CardMedia
                                     component="img"
+                                    style={{cursor:"pointer"}}
                                     height="140"
                                     image={item.image}
                                     alt="green iguana"
