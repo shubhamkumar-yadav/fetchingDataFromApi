@@ -47,10 +47,10 @@ const ProductDetails = ()=>{
     const classes = useStyle();
     return(<>
     <Grid container className={classes.container}>
-        <Grid item xs={6} className={classes.leftContainer}>
+        <Grid item xs={12} md={6} className={classes.leftContainer}>
             <img src={aboutProduct.image} alt={aboutProduct.id} style={{width:"50%"}} />
         </Grid>
-        <Grid item xs={6} className={classes.rightContainer}>
+        <Grid item xs={12} md={6} className={classes.rightContainer}>
             <Typography className={classes.title}>{aboutProduct.title}</Typography>
             <Typography className={classes.head}>Price :</Typography>
             <Typography className={classes.price}>₹ {aboutProduct.price}</Typography>
