@@ -70,6 +70,7 @@ const Home = () => {
                                     height="140"
                                     image={item.image}
                                     alt="green iguana"
+                                    onClick={()=>productDetails(item.id)}
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" className={classes.title}>
